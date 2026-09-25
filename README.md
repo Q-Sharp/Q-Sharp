@@ -4,23 +4,6 @@ Software architect, C# developer and DevOps engineer based in Germany.
 
 I build web applications, desktop tools and bots on .NET, and the CI/CD pipelines that ship them. I <3 simple solutions.
 
-# 🤝 Open Source Contributions
-
-| Project | Contribution |
-| --- | --- |
-| [damienbod/Blazor.BFF.OpenIDConnect.Template](https://github.com/damienbod/Blazor.BFF.OpenIDConnect.Template) ![Stars](https://img.shields.io/github/stars/damienbod/Blazor.BFF.OpenIDConnect.Template?style=flat-square) | Upgrades to .NET 7 and .NET 8, NuGet publish pipeline with semantic versioning, `AntiforgeryHttpClientFactory`, fewer NuGet dependencies |
-| [damienbod/bff-aspnetcore-angular](https://github.com/damienbod/bff-aspnetcore-angular) ![Stars](https://img.shields.io/github/stars/damienbod/bff-aspnetcore-angular?style=flat-square) | Modernized the ASP.NET Core back end with current C# language features |
-| [Blazored/SessionStorage](https://github.com/Blazored/SessionStorage) ![Stars](https://img.shields.io/github/stars/Blazored/SessionStorage?style=flat-square) | Upgrade to .NET 7 and updated NuGet packages |
-| [Razzmatazzz/RemnantSaveGuardian](https://github.com/Razzmatazzz/RemnantSaveGuardian) ![Stars](https://img.shields.io/github/stars/Razzmatazzz/RemnantSaveGuardian?style=flat-square) | Migration to .NET 8, introduced GitHub Actions, fixes for auto-update and localization |
-| [oleg-shilo/wixsharp](https://github.com/oleg-shilo/wixsharp) ![Stars](https://img.shields.io/github/stars/oleg-shilo/wixsharp?style=flat-square) | Added the `Net48_Installed` installer condition |
-
-# 🛠️ Projects
-
-- **[DiscordBot.Template](https://github.com/Q-Sharp/DiscordBot.Template)**: `dotnet new` template for Discord bots built on Discord.NET, published on [NuGet](https://www.nuget.org/packages/DiscordBot.Template)
-- **[MMBot](https://github.com/Q-Sharp/MMBot)**: Discord member management bot with a Blazor configuration website, containerized with Docker
-- **[kopator](https://github.com/Q-Sharp/kopator)**: cross-platform desktop tool for copying, flattening and cataloguing folders, built with Avalonia on .NET 10
-- **[SilentSoundGenerator](https://github.com/Q-Sharp/SilentSoundGenerator)**: Windows tray utility that keeps wireless headsets from powering down, built with NAudio
-
 # 💻 Tech Stack
 
 **Languages**
@@ -73,3 +56,14 @@ I build web applications, desktop tools and bots on .NET, and the CI/CD pipeline
 ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+
+
+# 🤝 Open Source Contributions
+
+| Project | Contribution |
+| --- | --- |
+| [damienbod/Blazor.BFF.OpenIDConnect.Template](https://github.com/damienbod/Blazor.BFF.OpenIDConnect.Template) ![Stars](https://img.shields.io/github/stars/damienbod/Blazor.BFF.OpenIDConnect.Template?style=flat-square) | Upgrades to .NET 7 and .NET 8, NuGet publish pipeline with semantic versioning, `AntiforgeryHttpClientFactory`, fewer NuGet dependencies |
+| [damienbod/bff-aspnetcore-angular](https://github.com/damienbod/bff-aspnetcore-angular) ![Stars](https://img.shields.io/github/stars/damienbod/bff-aspnetcore-angular?style=flat-square) | Modernized the ASP.NET Core back end with current C# language features |
+| [Blazored/SessionStorage](https://github.com/Blazored/SessionStorage) ![Stars](https://img.shields.io/github/stars/Blazored/SessionStorage?style=flat-square) | Upgrade to .NET 7 and updated NuGet packages |
+| [Razzmatazzz/RemnantSaveGuardian](https://github.com/Razzmatazzz/RemnantSaveGuardian) ![Stars](https://img.shields.io/github/stars/Razzmatazzz/RemnantSaveGuardian?style=flat-square) | Migration to .NET 8, introduced GitHub Actions, fixes for auto-update and localization |
+| [oleg-shilo/wixsharp](https://github.com/oleg-shilo/wixsharp) ![Stars](https://img.shields.io/github/stars/oleg-shilo/wixsharp?style=flat-square) | Added the `Net48_Installed` installer condition |
