@@ -4,6 +4,8 @@ Software architect, C# developer and DevOps engineer based in Germany.
 
 I build web applications, desktop tools and bots on .NET, and the CI/CD pipelines that ship them. I <3 simple solutions.
 
+<img src="koi/koi.gif" width="256" alt="Pixel-art koi, redrawn every night from my public GitHub activity" />
+
 # 💻 Tech Stack
 
 **Languages**

@@ -6,13 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is the GitHub **profile README** repository for the user `Q-Sharp` (remote: `github.com/Q-Sharp/Q-Sharp`). GitHub renders `README.md` from a repo named after the account on the profile page at `github.com/Q-Sharp`. Despite the name, it has nothing to do with Microsoft's Q# quantum language.
 
-The only tracked file is `README.md`. There is no build, lint, or test tooling, and no dependencies. Changes are verified by viewing the rendered Markdown on GitHub.
+The hand-written content is `README.md`. `.github/workflows/koi.yml` redraws `koi/koi.gif` every night with [git-koi](https://github.com/yalongwastaken/git-koi) and commits it to `master`, so pull before pushing and don't edit the GIF by hand. There is no build, lint, or test tooling, and no dependencies. Changes are verified by viewing the rendered Markdown on GitHub.
 
 ## README structure
 
 The profile is meant to be shown to recruiters and employers, so every claim in it must be backed by the public GitHub record: the profile bio, the user's own repos, and merged PRs in other repos. Don't invent roles, years of experience, employers, or contact details.
 
 - **Intro** restates the GitHub bio ("software architect, C# developer and devops engineer", Germany) and keeps the motto "I <3 simple solutions".
+- **Koi** sits below the intro as `<img src="koi/koi.gif" width="256">`. The GIF is drawn at twice the koi's pixel size, so keep that width to avoid blurring.
 - **Open Source Contributions** is a table of external repos where the user has merged PRs. Each row has a live star badge (`img.shields.io/github/stars/<owner>/<repo>?style=flat-square`) and a summary of the PRs. `gh search prs --author Q-Sharp --merged` lists candidates.
 - **Projects** lists the user's own repos, each with a one-line description based on that repo's README.
 - **Tech Stack** is grouped under bold category labels (Languages, Frameworks, Cloud & DevOps, Databases & Search, APIs & Tools, Platforms). Within a group, badges sit on consecutive lines so they render inline. Community sites, consumer apps, and privacy/crypto tools were removed deliberately to keep the profile professional.
