@@ -8,19 +8,35 @@ on:
     paths: [.github/workflows/koi.yml]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency: koi
 
 jobs:
-  koi:
+  draw:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
       - uses: yalongwastaken/git-koi@7305e9b1fadee6f43d3b4fa543a25d4cde79856e
         with:
           body: white
           output-dir: koi
+      - uses: actions/upload-artifact@v7
+        with:
+          name: koi
+          path: koi/koi.gif
+          if-no-files-found: error
+
+  commit:
+    needs: draw
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          name: koi
+          path: koi
       - name: Commit the koi if it changed
         shell: bash
         run: |
